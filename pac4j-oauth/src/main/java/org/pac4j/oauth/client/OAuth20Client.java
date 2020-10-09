@@ -38,22 +38,7 @@ public class OAuth20Client extends IndirectClient {
 
     public void setConfiguration(final OAuth20Configuration configuration) {
         this.configuration = configuration;
-    }
-
-    public String getKey() {
-        return configuration.getKey();
-    }
-
-    public void setKey(final String key) {
-        configuration.setKey(key);
-    }
-
-    public String getSecret() {
-        return configuration.getSecret();
-    }
-
-    public void setSecret(final String secret) {
-        configuration.setSecret(secret);
+    
     }
 
     @Override
